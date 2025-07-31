@@ -1,28 +1,27 @@
-# Task 3: Heart Disease Prediction
+# Task 6: House Price Prediction
 
 ## Objective
-Build a machine learning model to predict whether a person is at risk of heart disease based on clinical data.
+Use regression models to predict housing prices based on California district features.
 
 ## Dataset
-- Source: UCI Heart Disease Dataset (Cleveland subset)
-- Columns: age, sex, chest pain type, blood pressure, cholesterol, max heart rate, etc.
-- Target: 1 (disease) or 0 (no disease)
+- California Housing dataset (from scikit-learn)
+- Target: Median house value
+- Features: Median income, house age, rooms, population, etc.
 
-## Tools Used
-- Python
-- Jupyter Notebook
-- pandas, seaborn, matplotlib
-- scikit-learn (Logistic Regression)
+## Tools
+- Python, Jupyter Notebook
+- scikit-learn
+- matplotlib, pandas
 
-## Preprocessing
-- Converted multiclass target to binary:
-  - 0 = no disease
-  - 1 = presence of disease
+## Models Used
+- Linear Regression
+- Gradient Boosting Regressor
 
-## Evaluation
-- Accuracy
-- Confusion Matrix
-- ROC Curve and AUC score
+## Evaluation Metrics
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R² (Coefficient of Determination)
 
 ## Insights
-Logistic Regression achieved decent classification results. Further tuning and feature scaling could improve performance. Visualization of ROC and confusion matrix helped interpret model reliability.
+- Gradient Boosting showed improved accuracy.
+- Strong correlation between income and house prices observed.
