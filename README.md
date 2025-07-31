@@ -1,27 +1,43 @@
-# Task 6: House Price Prediction
+# AI/ML Internship Tasks – DevelopersHub Corporation
 
-## Objective
-Use regression models to predict housing prices based on California district features.
+##  Intern: Kiran Afzal
+##  Edu: 4 Sem MECHANICAL Engineering(NUST CEME)
+##  Organization: DevelopersHub Corporation
+##  Submission Deadline: 2nd August 2025
 
-## Dataset
-- California Housing dataset (from scikit-learn)
-- Target: Median house value
-- Features: Median income, house age, rooms, population, etc.
+---
 
-## Tools
-- Python, Jupyter Notebook
+##  Completed Tasks
+
+### 1. Task 1: Iris Dataset Exploration
+- Dataset: Iris flower dataset (built-in via seaborn)
+- Explored using pairplots, histograms, and boxplots
+- Found strong species separation based on petal measurements
+
+### 2. Task 3: Heart Disease Prediction
+- Dataset: UCI Heart Disease (14 clinical features)
+- Model: Logistic Regression
+- Evaluation: Accuracy, ROC Curve, Confusion Matrix
+- Binary target classification: 0 = No Disease, 1 = Disease
+
+### 3. Task 6: House Price Prediction
+- Dataset: California Housing (scikit-learn)
+- Models: Linear Regression, Gradient Boosting
+- Evaluation: MAE, RMSE, R²
+- Found income and location to be strong predictors of house value
+
+---
+
+##  Tools & Libraries Used
+- Python 3
+- Jupyter Notebook
+- pandas, seaborn, matplotlib
 - scikit-learn
-- matplotlib, pandas
 
-## Models Used
-- Linear Regression
-- Gradient Boosting Regressor
+---
 
-## Evaluation Metrics
-- MAE (Mean Absolute Error)
-- RMSE (Root Mean Squared Error)
-- R² (Coefficient of Determination)
-
-## Insights
-- Gradient Boosting showed improved accuracy.
-- Strong correlation between income and house prices observed.
+##  Skills Gained
+- Data preprocessing and feature analysis
+- Exploratory data visualization
+- Supervised learning: classification & regression
+- Model evaluation and interpretation
