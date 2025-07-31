@@ -1,23 +1,28 @@
-# Task 1: Iris Dataset Exploration
+# Task 3: Heart Disease Prediction
 
-##  Objective
-Explore and visualize the Iris dataset to understand relationships between flower species and measurements.
+## Objective
+Build a machine learning model to predict whether a person is at risk of heart disease based on clinical data.
 
-##  Dataset
-- Built-in Iris dataset from seaborn
-- Features: sepal length, sepal width, petal length, petal width
-- Target: species (Setosa, Versicolor, Virginica)
+## Dataset
+- Source: UCI Heart Disease Dataset (Cleveland subset)
+- Columns: age, sex, chest pain type, blood pressure, cholesterol, max heart rate, etc.
+- Target: 1 (disease) or 0 (no disease)
 
-##  Tools & Libraries
+## Tools Used
 - Python
 - Jupyter Notebook
-- Pandas, Seaborn, Matplotlib
+- pandas, seaborn, matplotlib
+- scikit-learn (Logistic Regression)
 
-##  Visualizations
-- Pairplot
-- Histograms
-- Boxplots
+## Preprocessing
+- Converted multiclass target to binary:
+  - 0 = no disease
+  - 1 = presence of disease
 
-##  Key Insights
-- Petal length and width are most useful for distinguishing species.
-- Dataset is clean and ready for modeling.
+## Evaluation
+- Accuracy
+- Confusion Matrix
+- ROC Curve and AUC score
+
+## Insights
+Logistic Regression achieved decent classification results. Further tuning and feature scaling could improve performance. Visualization of ROC and confusion matrix helped interpret model reliability.
